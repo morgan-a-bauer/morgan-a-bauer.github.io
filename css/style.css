@@ -11,6 +11,7 @@
 body {
   font-family: 'League Spartan', sans-serif;
   background-color: #2B3856;
+  color: #AFDCEC;
 }
 
 a {
@@ -28,7 +29,6 @@ li {
   justify-content: space-between;
   padding: 20px;
   background-color: #2B3856;
-  color: #AFDCEC;
 }
 
 .nav-links a {
@@ -144,4 +144,38 @@ input[type=checkbox] {
   }
 }
 
+/* CONTACT*/
 /* PHOTO OF MORGAN */
+.beach {
+    float: left;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 30%;
+  }
+
+  /* CONTACT INFO TEXT */
+.contact_info {
+    font-size: 48px;
+    text-align: center;
+}
+
+.phone {
+    font-size: 24px;
+    text-align: center;
+}
+
+.email {
+    font-size: 24px;
+    text-align: center;
+}
+
+.linkedin {
+    font-size: 24px;
+    text-align: center;
+}
+
+.github {
+    font-size: 24px;
+    text-align: center;
+}
