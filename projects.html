@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css"/>
+  <script src="https://kit.fontawesome.com/1c7615ab99.js" crossorigin="anonymous"></script>
+	<title>Morgan Bauer's Portfolio</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <!-- Social Icons on the left -->
+      <ul class="social">
+        <li><a href="mailto:morgan.a.bauer@gmail.com" target="_blank">
+          <i class="fa-regular fa-envelope"></i>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/morgan-a-bauer/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a></li>
+        <li><a href="https://github.com/morgan-a-bauer" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a></li>
+        <li><a href="https://scholar.google.com/citations?user=VFwSnj4AAAAJ&hl=en&oi=ao" target="_blank">
+          <i class="fa-brands fa-google-scholar"></i>
+        </a></li>
+      </ul>
+    </div>
+  
+    <div class="nav-right">
+      <!-- Menu on the right -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      
+      <ul class="menu">
+        <li><a href="index.html">About</a></li>
+        <li class="projects"><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">Cirriculum Vitae</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="tiles-container">
+    <div class="tile">
+        <h2>Solving Logic Puzzles with Evolutionary Computation</h2>
+        <div class="tile-cols">
+            <div class="table-left">
+                <table class="table table-sm table-borderless table-responsive">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="project-text">As a final project for CS470 (Evolutionary Computation) at
+                                    Eckerd College, Ramsay Flower and I designed a solver for logic
+                                    grid puzzles using evolutionary computing techniques.
+                                    <br>
+                                    <br>
+                                    We designed a hybrid representation of the puzzle
+                                    utilizing evolutionary operators for both
+                                    permutation-based and array-based representations.
+                                    <br>
+                                    <br>
+                                    To the right, you will see an example of a logic
+                                    grid puzzle using characters, items, and locations
+                                    from J.R.R. Tolkien's Middle-Earth.
+                                    <br>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="in-text-link" href="https://github.com/morgan-a-bauer/logic_puzzles_evolution" target = "_blank">View on GitHub</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-right">
+                <img class="logic-puzzle" src="images/example_puzzle.jpg" alt="An example logic puzzle" width="300px">
+            </div>
+        </div>
+    </div>
+
+    <div class="tile">
+      <h2>Analytics for Fantasy Basketball</h2>
+      <div class="tile-cols">
+          <div class="table-left">
+              <table class="table table-sm table-borderless table-responsive">
+                  <tbody>
+                      <tr>
+                          <td>
+                              <p class="project-text">As mentioned on the "About"
+                                page, I am a huge basketball fan (especially When
+                                it comes to the Sacramento Kings).
+                                <br>
+                                <br>
+                                I am the co-comissioner of my family's fantasy
+                                basketball league. My grandfather often wins the
+                                league, so I decided to develop some tools to
+                                improve my performance.
+                                <br>
+                                <br>
+                                These tools include customized draft rankings
+                                and a Recurrent Neural Network (RNN) that I use to
+                                predict the scores of each player on a daily basis
+                                to inform my sit/start decisions.
+                                <br>
+                                <br>
+                                Upon implementing these tools, I saw an improvement
+                                of my win percentage from 47.8% in the 2022-2023
+                                season to 70.3% in the 2023-2024 season. I
+                                improved my managerial ranking from 578 (bronze)
+                                to 831 (platinum).
+                                <br>
+                              </p>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a class="in-text-link" href="https://github.com/morgan-a-bauer/fantasy_basketball" target = "_blank">View on GitHub</a>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="table-right">
+            <img class="ml-metrics" src="images/ml_loss_metrics.jpg" alt="Machine learning loss metrics" width="300px">
+            <br>
+            <br>
+            <img class="predicted-score" src="images/a_predicted_score.jpg" alt="A predicted score" width="300px">
+          </div>
+      </div>
+  </div>
+
+  </section>
+
+</body>
+
+</html>

@@ -5,43 +5,62 @@
   <meta name="renderer" content="webkit">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="css/style.css"/>
+  <script src="https://kit.fontawesome.com/1c7615ab99.js" crossorigin="anonymous"></script>
 	<title>Morgan Bauer's Portfolio</title>
 </head>
 <body>
   <nav class="navbar">
-    <!-- LOGO -->
-    <div class="logo">Morgan Bauer</div>
-
-    <!-- NAVIGATION MENU -->
-    <ul class="nav-links">
-
-      <!-- CHECKBOX -->
+    <div class="nav-left">
+      <!-- Social Icons on the left -->
+      <ul class="social">
+        <li><a href="mailto:morgan.a.bauer@gmail.com" target="_blank">
+          <i class="fa-regular fa-envelope"></i>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/morgan-a-bauer/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a></li>
+        <li><a href="https://github.com/morgan-a-bauer" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a></li>
+        <li><a href="https://scholar.google.com/citations?user=VFwSnj4AAAAJ&hl=en&oi=ao" target="_blank">
+          <i class="fa-brands fa-google-scholar"></i>
+        </a></li>
+      </ul>
+    </div>
+  
+    <div class="nav-right">
+      <!-- Menu on the right -->
       <input type="checkbox" id="checkbox_toggle" />
       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-      <!-- MENUS -->
-      <div class="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-
-        <li class="projects">
-          <a href="/">Projects</a>
-
-          <!-- DROPDOWN -->
-          <ul class="dropdown">
-            <li><a href="/">Ciphers</a></li>
-            <li><a href="/">Games</a></li>
-            <li><a href="/">Sports</a></li>
-            <li><a href="/">Other</a></li>
-            <li><a href="/">Miscellaneous</a></li>
-          </ul>
-
-        </li>
-
-        <li><a href="contact.html">Contact</a></li>
-      </div>
-    </ul>
+      
+      <ul class="menu">
+        <li><a href="index.html">About</a></li>
+        <li class="projects"><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">Cirriculum Vitae</a></li>
+      </ul>
+    </div>
   </nav>
+  <div class="about-cols">
+    <div class="the-meat">
+      <h1 class="my-name">MORGAN BAUER</h1>
+      <p class="about-me-stuff">Hey, I'm Morgan! I'm an undergraduate student studying computer science
+         and mathematics at Eckerd College in St. Petersburg, FL. I love working
+         on any tough problems with meaningful applications. My current research pursuits
+         lie in combinatorics, post-quantum cryptography, and deep learning.
+      </p>
+      <br>
+      <br>
+      <p class="about-me-stuff">
+        When I'm not working on a fun project, you'll most likely find me outside,
+        hiking, biking, SCUBA diving, snowboarding, or camping. I have also been known
+        to get lost in a good book, obsess over Sacramento Kings basketball, and
+        engage in some friendly competition in the form of a board game.
+      </p>
+    </div>
+    <div class="meeee">
+      <img class="me-photo" src="images/green_mountain.jpg" alt="Morgan in his natural habitat" width="600px">
+    </div>
+  </div>
 </body>
 
 </html>
