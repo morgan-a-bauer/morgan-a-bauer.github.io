@@ -195,12 +195,12 @@ input[type=checkbox] {
 }
 
 .my-name {
-    font-size: 100px;
+    font-size: 64px;
     color: #fff;
 }
 
 .about-me-stuff {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1.3;
 }
 
