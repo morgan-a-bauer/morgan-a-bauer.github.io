@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #f9f7f1;
+  --color-surface: #ffffff;
+  --color-ink: #1a211e;
+  --color-charcoal: #4a5550;
+  --color-ivy: #1b4332;
+  --color-rust: #bf5700;
+  --color-sand: #e2ddd0;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-surface: var(--color-surface);
+  --color-ink: var(--color-ink);
+  --color-charcoal: var(--color-charcoal);
+  --color-ivy: var(--color-ivy);
+  --color-rust: var(--color-rust);
+  --color-sand: var(--color-sand);
+
+  --font-display: var(--font-oswald);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-fira-code);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-ink);
+}
+
+* {
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
