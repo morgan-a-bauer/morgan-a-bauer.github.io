@@ -27,7 +27,7 @@ export function About() {
         <div className="space-y-6">
           <p>
             As an MSE candidate in Robotics at Penn’s GRASP Lab, I’ve always
-            gravitated toward high-dimensional challenges. My background spans
+            gravitated toward complex challenges. My background spans
             publishing in combinatorics, developing deep learning models,
             exploring post-quantum cryptography, and applying sports analytics
             at the highest level in the NFL.
