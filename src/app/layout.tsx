@@ -19,9 +19,8 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "M. Bauer // Robotics & Analytics",
-  description:
-    "Portfolio of Morgan Bauer — robotics research and sports analytics engineering.",
+  title: "M. Bauer // Dum Spiro Spero",
+  description: "Portfolio of Morgan Bauer",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

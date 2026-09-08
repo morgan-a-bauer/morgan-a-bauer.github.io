@@ -1,10 +1,14 @@
 import Link from "next/link";
 
 const NAV_LINKS = [
+  { label: "ABOUT", href: "/#about" },
   { label: "PROJECTS", href: "/#projects" },
   { label: "RESEARCH", href: "/#research" },
-  { label: "ABOUT", href: "/#about" },
+  { label: "BEYOND THE LAB", href: "/beyond-the-lab" },
   { label: "CV", href: "/cv" },
+  ...(process.env.NODE_ENV === "development"
+    ? [{ label: "GALLERY", href: "/gallery" }]
+    : []),
   { label: "CONTACT", href: "/#contact" },
 ];
 
@@ -16,7 +20,7 @@ export function Header() {
           href="/"
           className="text-cream focus-visible:ring-rust font-mono text-sm tracking-wide focus-visible:ring-2 focus-visible:outline-none"
         >
-          M. BAUER // ROBOTICS &amp; ANALYTICS
+          M. BAUER // DUM SPIRO SPERO
         </Link>
         <nav aria-label="Primary">
           <ul className="flex items-center gap-6">

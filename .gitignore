@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local-only dev gallery photos (never committed/deployed)
+/public/photography/*
+!/public/photography/.gitkeep

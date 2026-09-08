@@ -11,10 +11,10 @@ export function Footer() {
             Contact
           </p>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:morgan.a.bauer@gmail.com"
             className="font-display text-cream hover:text-rust focus-visible:text-rust focus-visible:ring-rust w-fit text-lg focus-visible:ring-2 focus-visible:outline-none"
           >
-            hello@example.com
+            morgan.a.bauer@gmail.com
           </a>
         </div>
         <div className="flex items-center gap-5">
